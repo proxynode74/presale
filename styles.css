@@ -63,7 +63,7 @@ body {
 }
 
 #wallet {
-    font-size: 14px; /* Adjust size as needed */
+    font-size: 12px; /* Adjust size as needed */
     font-weight: bold;
     display: block; /* Ensures it does not break formatting */
     text-align: center;
