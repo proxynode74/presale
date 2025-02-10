@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Presale</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-to-buy">How to Buy</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Token Presale</h1>
+            <p>Secure your tokens by sending SOL to the official presale wallet.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="wallet-box">
+            <h2>Presale Wallet Address</h2>
+            <div class="wallet-address">
+                <span id="wallet">BYwR3aMSudRWS7rAb5u9SNH8eDyDp9RZV7Mb375UuDSp</span>
+                <button onclick="copyWallet()" class="copy-btn">📋</button>
+            </div>
+        </section>
+
+        <section class="slider-box" id="how-to-buy">
+            <h2>How to Buy SOL & Send to Presale</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <h3>Download Phantom Wallet</h3>
+                        <p>Choose your platform and download below:</p>
+                        <div class="download-options">
+                            <a href="https://apps.apple.com/app/phantom-wallet/id1598432977" target="_blank" class="download-btn">
+                                <span class="icon">🍏</span> Apple Store iOS
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=app.phantom" target="_blank" class="download-btn">
+                                <span class="icon">🤖</span> Google Play Android
+                            </a>
+                            <a href="https://phantom.app/download" target="_blank" class="download-btn">
+                                <span class="icon">💻</span> Desktop
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">Step 2: Open Phantom App</div>
+                    <div class="slide">Step 3: Tap on Solana (SOL)</div>
+                    <div class="slide">Step 4: Tap Buy and Enter Amount</div>
+                    <div class="slide">Step 5: Select MoonPay as Payment Provider</div>
+                    <div class="slide">Step 6: Complete Purchase</div>
+                    <div class="slide">Step 7: Copy the Presale Wallet Address</div>
+                    <div class="slide">Step 8: Tap Send, Paste Address, Enter Amount, and Confirm</div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prevSlide">‹ Prev</button>
+                    <button id="nextSlide">Next ›</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="timer">
+            <h2>Presale Active Since:</h2>
+            <p id="counting-timer">Loading...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Token Presale. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
